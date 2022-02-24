@@ -1,0 +1,16 @@
+keycloak/log.text
+keycloak/conf
+keycloak/deployments
+keycloak/logs
+keycloak/postgres
+keycloak/postgres_data
+keycloak/themes
+keycloak/test.log
+postgres/postgres_data
+postgres/pgadmin-data
+**/log*
+**/*.log
+**/data
+**/conf
+**/acl
+.idea

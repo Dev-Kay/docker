@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+    my-jupyterhub:
+        image: jupyterhub-oauth
+        ports:
+          - 11000:8000
+        volumes:
+          - ./oauthenticator/examples/full:/srv/oauthenticator
+        environment:
+          TZ: "Asia/Seoul"
+        # env_file: .env

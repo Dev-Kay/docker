@@ -1,0 +1,3 @@
+for line in `cat userlist`; do
+  echo $line
+done
