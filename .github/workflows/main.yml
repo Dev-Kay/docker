@@ -15,10 +15,9 @@ on:
         options:
           - develop
 env:
-  APP_NAME: catalogyo-fe-api
   AWS_REGION: ap-northeast-2
-  ECR_REPOSITORY: catalogyo/fe-api
-  ECS_SERVICE: ${{ name }}-service
+  ECR_REPOSITORY: my/ecr
+  ECS_SERVICE: my-ecs-service
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
