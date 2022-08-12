@@ -42,4 +42,4 @@ jobs:
         run: |
           echo APP NAME :: ${APP_NAME}
           echo ECS SERVICE :: ${ECS_SERVICE}
-          echo TEST_LOG :: ${TEST_LOG}|
+          echo TEST_LOG :: ${TEST_LOG}
