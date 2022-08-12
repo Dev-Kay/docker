@@ -37,6 +37,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
+        env:
+          TEST_LOG: catalogyo/${{ env.ECR_REPOSITORY }}-nginx-proxy
         run: |
           echo APP NAME :: ${APP_NAME}
           echo ECS SERVICE :: ${ECS_SERVICE}
+          echo TEST_LOG :: ${TEST_LOG}|
